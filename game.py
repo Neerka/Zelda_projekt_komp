@@ -14,7 +14,7 @@ class player(object):
         self.y = y
         self.char_width = char_width
         self.char_heigth = char_heigth
-        self.velocity = 3
+        self.velocity = 4
         self.d_con = win_width - char_width
         self.s_con = win_height - char_heigth
         self.isRoll = False
